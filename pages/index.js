@@ -15,7 +15,7 @@ export default function Home({appID}) {
 export async function getStaticProps(){
   return {
     props: {
-      appID: 'c9m88kah3R9B94PUBE9EKIMO'
+      appID: 'xctIplXGdF15dsoCAL8fe8LS'
     }
   };
 }
