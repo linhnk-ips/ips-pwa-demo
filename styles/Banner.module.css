@@ -1,0 +1,29 @@
+.mainHeader{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    background-color: #d8d9d9;
+    color: rgb(14, 13, 13);
+}
+.headerText {
+    font-size: 24px;
+    margin: 0px 10px;
+}
+    
+.passageLogo {
+    background-image: url('https://www.ips-ag.com/content/files/images/img/logo.svg');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+}
+.spacer {
+    flex-grow: 1;
+}
+    
+.link {
+    margin-left: 20px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
