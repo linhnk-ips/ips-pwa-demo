@@ -1,6 +1,7 @@
 // this import is only included in the server build since its only used in getServerSideProps
 import Passage from '@passageidentity/passage-node';
 import styles from '../styles/App.module.css'
+import Link from 'next/link';
 
 function Dashboard({isAuthorized, username}){
 
@@ -15,7 +16,7 @@ function Dashboard({isAuthorized, username}){
   <>
       You have not logged in and cannot view the dashboard.
       <br/><br/>
-      <a href="/" className={styles.link}>Login to continue.</a>
+      <Link href='/' className={styles.link}>Login to continue.</Link>
   </>
 
   return (

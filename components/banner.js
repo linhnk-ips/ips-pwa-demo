@@ -1,11 +1,11 @@
 import styles from '../styles/Banner.module.css';
+import Link from 'next/link';
 
 export default function Banner() {
-    return ( 
+    return (
         <div className={styles.mainHeader}>
-            <a href="https://www.ips-ag.com/" ><div className={styles.passageLogo}></div></a>
+            <Link href='https://www.ips-ag.com/'><div className={styles.passageLogo}></div></Link>
             <div className={styles.spacer}></div>
-            <a href="https://www.ips-ag.com/" className={styles.link}>Go to IPS</a>
         </div>
     );
 }
